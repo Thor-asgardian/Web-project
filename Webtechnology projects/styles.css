@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffb700 5px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left;
+}
+
+header nav a:hover {
+    background: #ffb700;
+    color: #333;
+}
+
+#banner {
+    background: #ffb700;
+    color: #333;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#banner h2 {
+    font-size: 35px;
+}
+
+#banner p {
+    font-size: 20px;
+}
+
+#about,
+#admissions,
+#academics {
+    padding: 60px 0;
+    background: #f4f4f4;
+}
+
+#about h2,
+#admissions h2,
+#academics h2 {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}

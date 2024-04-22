@@ -1,0 +1,18 @@
+/* styl.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  h2 {
+    color: green;
+  }
+  
+  p {
+    color: red;
+  }
+  
